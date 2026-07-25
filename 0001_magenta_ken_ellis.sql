@@ -1,0 +1,1 @@
+ALTER TABLE `assessment_sessions` ADD `candidate_email` text;

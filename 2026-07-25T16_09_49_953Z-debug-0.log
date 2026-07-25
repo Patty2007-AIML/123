@@ -1,0 +1,28 @@
+0 verbose cli /opt/nvm/versions/node/v22.16.0/bin/node /opt/nvm/versions/node/v22.16.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/mnt/data/technologia_work/.npmrc
+5 silly config load:file:/home/oai/.npmrc
+6 silly config load:file:/opt/nvm/versions/node/v22.16.0/etc/npmrc
+7 verbose title npm ls vinext vite
+8 verbose argv "ls" "vinext" "vite" "--depth" "0"
+9 verbose logfile logs-max:10 dir:/mnt/data/technologia_work/.sites-runtime/npm-cache/_logs/2026-07-25T16_09_49_953Z-
+10 verbose logfile /mnt/data/technologia_work/.sites-runtime/npm-cache/_logs/2026-07-25T16_09_49_953Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 verbose stack Error: invalid: vinext@ /mnt/data/technologia_work/node_modules/vinext
+13 verbose stack invalid: vite@ /mnt/data/technologia_work/node_modules/vite
+13 verbose stack     at LS.exec (/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/lib/commands/ls.js:206:9)
+13 verbose stack     at async Npm.exec (/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/opt/nvm/versions/node/v22.16.0/lib/node_modules/npm/lib/cli/entry.js:74:5)
+14 error code ELSPROBLEMS
+15 error invalid: vinext@ /mnt/data/technologia_work/node_modules/vinext
+15 error invalid: vite@ /mnt/data/technologia_work/node_modules/vite
+16 verbose cwd /mnt/data/technologia_work
+17 verbose os Linux 6.12.13
+18 verbose node v22.16.0
+19 verbose npm  v10.9.2
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /mnt/data/technologia_work/.sites-runtime/npm-cache/_logs/2026-07-25T16_09_49_953Z-debug-0.log
